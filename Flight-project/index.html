@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <!--  Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+     <!--  Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!--  CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Flight Result Card</title>
+</head>
+
+<body class="body-container">
+    <div class="top-position">
+        <div class="card-body">
+            <div class="flight-list-inner">
+                <!-- Flight detail Left -->
+                <div class="flight-detail-block">
+                    <p class="no-margin"><span class="highlight-dark">12:40 - 23:45</span>
+                        <sup class="text_danger font_12"> +1</sup>
+                    </p>
+                    <p class="mini-text truncate-destination">
+                        <span class="text_truncate">Kuala Lumpure</span>
+                        <span>(KUL)</span>
+                        <span class="m_10"> - </span>
+                        <span class="text_truncate">Penang</span>
+                        <span>(PEN)</span>
+                    </p>
+                    <div class="airline-details">
+                        <div class="">
+                            <img src="./img/srilankan.png" alt="Airline" class="airline_logo">
+                        </div>
+                        <div class="logo-text">
+                            <p class="mini-text no-margin">Srilankan Airways</p>
+                            <span class="mini-text">Operated by Malaysia Airline</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Flight Layover Time -->
+                <div class="layover-block-outer">
+                    <div class="layover-time">
+                        <span class="material-symbols-outlined font_14">flight_takeoff</span>
+                        <span class="mini-text">23h 11m</span>
+                        <span class="material-symbols-outlined font_14">flight_land</span>
+                    </div>
+                    <p class="layover-border"></p>
+                    <span class="mini-text">2 Stops (BOM, JFK)</span>
+                </div>
+                <!-- Flight Price Right -->
+                <div class="price-block">
+                    <div class="highlight-dark font_20">CAD 2,278.00
+                        <span class="logo-text material-symbols-outlined align-logo-sub cursor">info</span>
+                    </div>
+                    <p class="mini-text">per person incl. taxes & fees</p>
+                    <span class="font_14 text_success">Refundable</span>
+                </div>
+            </div>
+            <div class="section-seprate"></div>
+            <div class="flight-list-inner">
+                <div class="layover-time responsive-spacing">
+                    <div class="flight-inclusive">
+                        <span class="material-symbols-outlined font_20"> luggage </span>
+                        <span class="material-symbols-outlined logo-spacing font_20"> restaurant </span>
+                        <span class="material-symbols-outlined logo-spacing font_20"> pace </span>
+                        <span class="material-symbols-outlined logo-spacing font_20 on-mobile-view"> safety_check
+                        </span>
+                        <span class="material-symbols-outlined logo-spacing font_20 on-mobile-view"> eco </span>
+                    </div>
+                    <span class="more-options font_14 cursor">More Options</span>
+                </div>
+                <div>
+                    <button class="select-btn cursor">Select</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

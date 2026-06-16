@@ -1,0 +1,210 @@
+.no-margin {
+    margin: 0;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.font_14 {
+    font-size: 14px;
+}
+
+.font_12 {
+    font-size: 12px;
+}
+
+.font_20 {
+    font-size: 20px;
+}
+
+.text_success {
+    color: #15803D;
+}
+
+.text_danger {
+    color: #B40000;
+}
+
+.m_10 {
+    margin: 0 5px;
+}
+
+.mini-text {
+    font-size: 12px;
+    color: #1A1A1A;
+}
+
+.body-container {
+    background-color: #EAF0FF;
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.top-position {
+    margin-top: 100px;
+}
+
+.truncate-destination {
+    display: flex;
+    align-items: center;
+}
+
+.align-logo-sub {
+    vertical-align: sub;
+    font-size: 21px;
+}
+
+.airline_logo {
+    vertical-align: bottom;
+    width: 30px;
+}
+
+.airline-details {
+    display: flex;
+}
+
+.price-block {
+    text-align: right;
+}
+
+.text_truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 41px;
+}
+
+.card-body {
+    background-color: #fff;
+    box-shadow: 0 0 14px #1A1A1A1A;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.flight-list-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flight-list-inner .flight-inclusive span {
+    vertical-align: text-top;
+}
+
+.layover-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layover-time.responsive-spacing {
+    width: 100%;
+}
+
+.layover-block-outer {
+    text-align: center;
+    width: 15rem;
+}
+
+.layover-border {
+    border-bottom: 1px dashed #D1D1D1;
+    position: relative;
+    margin: 20px 0;
+}
+
+.layover-border::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #E7E7E7;
+    border-radius: 50%;
+    top: -5px;
+    left: 30%;
+}
+
+.layover-border::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #E7E7E7;
+    border-radius: 50%;
+    top: -5px;
+    right: 30%;
+}
+
+.section-seprate {
+    border-bottom: 0.5px solid #D1D1D1;
+    margin: 13px 0;
+}
+
+.highlight-dark {
+    color: #1A1A1A;
+    font-weight: bold;
+}
+
+.logo-text {
+    margin-left: 5px;
+}
+
+.logo-spacing {
+    margin-left: 10px;
+}
+
+/* Buttons */
+.select-btn {
+    background-color: #0852C5;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 13px 35px;
+    color: #fff;
+    border: none;
+}
+
+.more-options {
+    color: #0852C5;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+/* Tab View */
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .layover-block-outer {
+        width: 12rem;
+    }
+}
+
+/* Mobile View */
+@media screen and (max-width:767px) {
+    .card-body {
+        padding: 16px;
+    }
+
+    .flight-list-inner {
+        display: block;
+    }
+
+    .layover-block-outer {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .select-btn {
+        width: 100%;
+    }
+
+    .more-options {
+        margin: 0;
+    }
+
+    .layover-time.responsive-spacing {
+        margin: 15px 0;
+    }
+
+    .on-mobile-view {
+        display: none;
+    }
+}
